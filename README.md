@@ -5,11 +5,11 @@
   
 Пожалуйста, прикрепите в это описание ссылку на сайт, размещенный на Яндекс.Облаке.
 
-Адрес репозитория: https://github.com/...
+Адрес репозитория: https://github.com/Hackimov-Ilmir/react-mesto-api-full-gha
 
 ## Ссылки на проект
 
-IP-адрес 51.250.27.139
+IP 51.250.27.139
 
 Frontend https://hackimov.mesto.nomoredomainsicu.ru
 
