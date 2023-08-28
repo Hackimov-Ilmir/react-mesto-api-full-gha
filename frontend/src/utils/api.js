@@ -107,7 +107,6 @@ class Api {
 const api = new Api({
   baseUrl: 'https://api.hackimov.mesto.nomoredomainsicu.ru',
   headers: {
-    authorization: 'c4bac050-522f-4c21-b8ac-c12d8c5c7e36',
     'Content-Type': 'application/json',
   },
 });
