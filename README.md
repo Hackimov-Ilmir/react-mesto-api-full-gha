@@ -9,8 +9,8 @@
 
 ## Ссылки на проект
 
-IP-адрес x.x.x.x
+IP-адрес 51.250.27.139
 
-Frontend https://...
+Frontend https://hackimov.mesto.nomoredomainsicu.ru
 
-Backend https://...
+Backend https://api.hackimov.mesto.nomoredomainsicu.ru

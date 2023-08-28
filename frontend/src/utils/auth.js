@@ -1,4 +1,4 @@
-const BASE_URL = 'https://auth.nomoreparties.co';
+const BASE_URL = 'https://api.hackimov.mesto.nomoredomainsicu.ru';
 
 function checkServerStatus(res) {
   if (res.ok) {
