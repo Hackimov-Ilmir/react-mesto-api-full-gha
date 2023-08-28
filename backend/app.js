@@ -15,7 +15,7 @@ require('dotenv').config();
 const app = express();
 app.use(bodyParser.json());
 
-const { PORT = 3000, MONGODB_URL } = process.env;
+const { PORT = 3000 } = process.env;
 
 app.use(helmet());
 
@@ -36,7 +36,7 @@ app.use(auth);
 
 app.use(router);
 
-mongoose.connect(MONGODB_URL, {
+mongoose.connect('mongodb://127.0.0.1:27017/mestodb', {
   useNewUrlParser: true,
 });
 
