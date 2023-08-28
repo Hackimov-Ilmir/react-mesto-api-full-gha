@@ -1,0 +1,21 @@
+.profile__avatar-container {
+  position: relative;
+  z-index: 1;
+}
+
+.profile__avatar-container::before {
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  content: '';
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.profile__avatar-container:hover::before {
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: ease;
+  cursor: pointer;
+  background-image: url(../../../images/editavatar.svg);
+}

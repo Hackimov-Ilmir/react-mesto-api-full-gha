@@ -1,0 +1,10 @@
+.page__narrow {
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 650px) and (max-width: 910px) {
+  .page__narrow {
+    max-width: calc(100% - 38px);
+  }
+}

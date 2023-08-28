@@ -1,0 +1,22 @@
+.profile__info-nickname {
+  margin: 0;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 1.14;
+  color: #ffffff;
+  grid-area: nickname;
+  align-self: end;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 320px) and (max-width: 700px) {
+  .profile__info-nickname {
+    max-width: 200px;
+    font-size: 27px;
+    line-height: 1.22;
+    padding-left: 27px;
+    align-self: start;
+  }
+}

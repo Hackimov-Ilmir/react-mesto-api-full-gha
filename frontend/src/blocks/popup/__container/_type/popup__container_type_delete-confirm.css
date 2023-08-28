@@ -1,0 +1,9 @@
+.popup__container_type_delete-confirm {
+  min-height: 181px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 550px) {
+  .popup__container_type_delete-confirm {
+    height: 166px;
+  }
+}
